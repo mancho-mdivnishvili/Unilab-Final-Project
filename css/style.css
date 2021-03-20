@@ -3,8 +3,16 @@
 	flex-flow: row wrap;
 	justify-content: space-between;
 }*/
+body {
+	background-color: #F9F1F1;
+}
+img,
+.office-map {
+	max-width: 100%;
+}
 .wrap {
-	    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 .container {
 	max-width: 1110px;
@@ -16,7 +24,7 @@
 	text-transform: capitalize;
 }
 /*header*/
-.header-bg {
+.header1-bg {
 	background-image: url(../images/narikala.jpg);
 	width: 100%;
 	height: 764px;
@@ -75,12 +83,236 @@ li {
 	right: 50%;
 	transform: translate(50%,50%);
 }
-.section-h4 {
+.explore-h4 {
 	font-size: 24px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
-.section-h2 {
+.explore-h2 {
 	font-size: 75px;
 	font-weight: 800;
+}
+.blog {
+	display: none;
+	position: relative;
+}
+/*section 2*/
+.section-h2 {
+	color: #2C3D55;
+	font-size: 56px;
+	font-weight: 400;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.box {
+	position: relative;
+}
+.box:nth-child(3),
+.box:nth-child(4) {
+	margin-top: 24px;
+}
+.destinations-h3 {
+	position: absolute;
+	bottom: 37px;
+	left: 15px;
+	font-size: 35px;
+	font-weight: 600;
+}
+.destinations-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 24px;
+}
+.destinations-wraper {
+	display: flex;
+	flex-direction: row;
+}
+
+/*section 3*/
+.box-wraper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.articles-p {
+	max-width: 348px;
+	width: 100%;
+	color: #2C3D55;
+	font-size: 18px; 
+	font-weight:400;
+}
+.articles-h4 {
+	color: #F2A541;
+	font-size: 20px; 
+	font-weight:600;
+	font-style: italic;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	max-width: 348px;
+    width: 100%;
+}
+.articles-h3 {
+	color: #2C3D55;
+	font-size: 25px; 
+	font-weight:800;
+	max-width: 348px;
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.button {
+  background-color: #2C3D55;
+  border: none;
+  color: #F9F1F1;
+  padding: 15px 100px;
+  text-align: center;
+  max-width: 348px;
+  width: 100%;
+  font-size: 22px;
+  margin-top: 10px;
+}
+/*section 4*/
+.section4-bg {
+	background-color: #2C3D55;
+	margin-top: 77px;
+}
+.footer-navigation {
+	padding-top: 60px;
+}
+.section-4 {
+	max-width: 1092px;
+	width: 100%;
+}
+.nav-ul,
+.f-navigation,
+.footer-navigation {
+	max-width: 1092px;
+	width: 100%;
+}
+.footer-div {
+	width: 100%;
+}
+.footer-h2 {
+	font-size: 40px ;
+	font-weight: 600;
+	margin-top: 50px;
+}
+.span {
+	color: #F2A541;
+}
+.footer-p {
+	max-width: 534px;
+	width: 100%;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.subscribe-button {
+  background-color: #F5F6F4;
+  border: none;
+  color: #2E4057;
+  padding: 15px 100px;
+  text-align: center;
+  max-width: 348px;
+  width: 100%;
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 35px;
+}
+.icons-p {
+	font-size: 24px;
+	font-weight: 800;
+	margin-bottom: 15px;
+}
+.footer-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.section-4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.footer-div {
+	display: flex;
+	flex-direction: row;
+}
+.newsletter-div {
+	display: flex;
+	flex-direction: column;
+} 
+.map {
+	margin-top: 40px;
+	padding-bottom: 20px;
+	max-width: 600px;
+	width: 100%;
+}
+/*activities page*/
+.activities-h3 {
+	position: absolute;
+	bottom: 30px;
+	left: 15px;
+	font-size: 35px;
+	font-weight: 600;
+}
+.activities-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+.activities-box-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 20px;
+}
+.activities-wraper {
+	display: flex;
+	flex-direction: row;
+}
+.header2-bg {
+	background-image: url(../images/act.imgs/bg-2.png);
+	width: 100%;
+	height: 764px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.category-box {
+	position: relative;
+}
+.category-box:nth-child(3),
+.category-box:nth-child(4) {
+	margin-top: 24px;
+}
+.category-box-1 {
+	margin-top: 24px;
+	position: relative;
+}
+.tour-text {
+	position: absolute;
+	bottom: 50%;
+	right: 50%;
+	transform: translate(50%,50%);
+	max-width: 902px;
+	width: 100%;
+}
+.tour-h4 {
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.tour-h2 {
+	font-weight: 800;
+	font-size: 34px;
+	margin-bottom: 30px;
+}
+.tour-p {
+	font-size: 30px;
 }

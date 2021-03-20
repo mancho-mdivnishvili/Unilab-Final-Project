@@ -1,0 +1,254 @@
+@media(max-width: 1110px) {
+	.section-4 {
+		padding-left: 10px;
+	}
+	.footer-h2 {
+		font-size: 35px;
+	}
+	.tbilisi,
+	.old-town,
+	.box:nth-child(3),
+	.box:nth-child(4) {
+		width: 90%;
+		height: auto;
+	}
+@media(max-width: 1024px) {
+	.tbilisi,
+	.old-town {
+		margin: 20px auto;
+	}
+	.explore-h2 {
+		font-size: 60px;
+	}
+	.destinations-wraper,
+	.activities-wraper {
+		flex-direction: row;
+	}
+	.destinations-box,
+	.activities-box,
+	.activities-box-1 {
+		flex-direction: column;
+		width: 100%;
+		margin-left: 0px;
+	}
+	.box,
+	.category-box,
+	.category-box-1 {
+		margin: 20px auto;
+	}
+	.articles-box {
+		width: 30%;
+	}
+	.religion-button {
+		margin-top: 37px;
+	}
+	.vardzia-button {
+		margin-top: 20px;
+	}
+	.tour-h4 {
+		font-size: 20px;
+	}
+	.tour-h2 {
+		font-size: 30px;
+	}
+	.tour-p {
+		font-size: 24px;
+	}
+	.tour-text {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.footer-div {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+@media(max-width: 768px) {
+	.main-ul {
+		display: none;
+	}
+	.burger-icon {
+		display: inline-block;
+		padding-right: 50px;
+	}
+	.activities-box-1 {
+		padding-left: 15px;
+	}
+	.explore-h4,
+	.tour-h4 {
+		font-size: 18px;
+	}
+	.explore-h2 {
+		font-size: 50px;
+	}
+	.box-wraper {
+		flex-direction: column;
+	}
+	.articles-box {
+		margin:20px auto;
+		width: 50%;
+	}
+	.header-h1 {
+		font-size: 70px;
+	}
+	.header-h4 {
+		font-size: 28px;
+	}
+	.tour-p {
+		font-size: 20px;
+	}
+}
+@media(max-width: 760px) {
+	.articles-box {
+		width: 45%;
+	}
+	li {
+		font-size:18px;
+		width: 10%;
+	}
+
+}
+@media(max-width: 480px) {
+	.box-wraper {
+	    flex-direction: column;
+	}
+	.articles-box {
+		width: 90%;
+	}
+	.newsletter-div {
+		width: 90%;
+	}
+	.header-h1 {
+		font-size: 50px;
+	}
+	.header-h4,
+	.tour-h2 {
+		font-size: 24px;
+	}
+	.explore-h4,
+	.tour-h4,
+	.tour-p {
+		font-size: 16px;
+	}
+	.explore-h2 {
+		font-size: 40px;
+	}
+	.tbilisi,
+	.old-town,
+	.box:nth-child(3),
+	.box:nth-child(4) {
+        width: 100%;
+        height: auto;
+    }
+    .destinations-h3 {
+    	font-size: 30px;
+    }
+    .activities-h3 {
+    	font-size: 25px;
+    }
+    li {
+    	width: 100%;
+    	margin-top: 10px;
+    	font-size: 30px;
+    }
+    .box,
+    .category-box,
+	.category-box-1 {
+        margin: 5px auto;
+    }
+    .category-box-1 {
+    	width: 100%;
+    }
+    .nav-icons {
+    	display: none;
+    }
+    .office-map {
+    	padding-right: 10px;
+    }
+}
+@media(max-width: 375px) {
+	.header-h1 {
+		font-size: 35px;
+	}
+	.header-h4 {
+		font-size: 18px;
+	}
+	.header1-bg {
+	background-image: url(../images/narikala.jpg);
+	width: 100%;
+	height: 400px;
+	}
+	.header2-bg {
+	background-image: url(../images/act.imgs/bg-2.png);
+	width: 100%;
+	height: 400px;
+	}
+	.title {
+		margin-top: 80px;
+	}
+	.logo-img {
+		max-width: 100px;
+		width: 100%;
+		height: 50px;
+		padding-left: 10px;
+	}
+	.explore-h4,
+	.tour-h4 {
+		font-size: 16px;
+	}
+	.explore-h2,
+	.footer-h2 {
+		font-size: 23px;
+	}
+	.tour-h2 {
+		font-size: 22px;
+	}
+	.tour-p {
+		display: none;
+	}
+	.blog {
+	    display: flex;
+	    justify-content: center;
+    }
+    .blog-h4,
+    .footer-p,
+    .icons-p {
+		font-size: 20px;
+		margin-top: 5px;
+	}
+	.icon {
+		font-size: 25px;
+		margin-right: 25px;
+	}
+	.office-map {
+		height: 293px;
+	}
+	.section-h2 {
+		font-size: 35px;
+	}
+}
+@media(max-width: 320px) {
+	.header-h1 {
+		font-size: 30px;
+	}
+	.header-h4 {
+		font-size: 16px;
+	}
+	.explore-h4,
+	.tour-h4 {
+		font-size: 14px;
+	}
+	.explore-h2,
+	.footer-h2 {
+		font-size: 23px;
+	}
+	.tour-h2 {
+		font-size: 18px;
+	}
+    .blog-h4,
+    .footer-p,
+    .icons-p {
+		font-size: 16px;
+		margin-top: 5px;
+	}
+}
