@@ -37,6 +37,11 @@ img,
 	justify-content: space-between;
 	align-items: center;
 	padding-top: 40px;
+	position: fixed;
+	z-index: 10000;
+}
+.active {
+	background-color: #2C3D55;
 }
 .nav-ul {
 	display: flex;
@@ -118,6 +123,8 @@ li {
 	left: 15px;
 	font-size: 35px;
 	font-weight: 600;
+	text-decoration: underline;
+	transition: transform .2s;
 }
 .destinations-box {
 	display: flex;
@@ -168,6 +175,8 @@ li {
   border: none;
   color: #F9F1F1;
   padding: 15px 100px;
+  opacity: 1;
+  transition: 0.3s;
   text-align: center;
   max-width: 348px;
   width: 100%;
@@ -221,6 +230,8 @@ li {
   margin-top: 15px;
   margin-bottom: 15px;
   border-radius: 35px;
+  opacity: 1;
+  transition: 0.3s;
 }
 .icons-p {
 	font-size: 24px;
@@ -258,6 +269,8 @@ li {
 	left: 15px;
 	font-size: 35px;
 	font-weight: 600;
+	text-decoration: underline;
+	transition: transform .2s;
 }
 .activities-box {
 	display: flex;
@@ -315,4 +328,66 @@ li {
 }
 .tour-p {
 	font-size: 30px;
+}
+/*form*/
+.form-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.form-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 16px;
+}
+.textarea-wraper {
+	resize: none;
+	height: 288px;
+	width: 720px;
+	background-color: #F8F8F8;
+	border: 2px solid #E8E8E8;
+}
+.input-box {
+	height: 60px;
+	width: 352px;
+	background-color: #F8F8F8;
+	border: 2px solid #F8F8F8;
+}
+input::placeholder,
+textarea::placeholder {
+	color: #2C3D55;
+	font-size: 15px;
+}
+.form-button {
+	width: 352px;
+	height: 60px;
+	background-color: #2C3D55;
+	color: #fff;
+	font-size: 14px;
+	border: 2px solid #2C3D55;
+}
+.fa-paper-plane {
+	font-size: 14px;
+}
+.contact-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.contact-h4 {
+	font-size: 40px;
+	color: #2C3D55 ;
+	padding-top: 88px;
+	padding-left: 139px;
+	margin-bottom: 30px;
+}
+/*hoover effects*/
+.button:hover {opacity: 0.6}
+.subscribe-button:hover {opacity: 0.6}
+.destinations-h3:hover {
+	transform: scale(1.1);
+}
+.activities-h3:hover {
+	transform: scale(1.1);
 }
