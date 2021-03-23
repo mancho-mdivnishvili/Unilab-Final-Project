@@ -28,11 +28,24 @@
           <i class="fas fa-globe icon"></i>
           <i class="fas fa-user-circle icon"></i>
         </div>
-  			<div class="burger-icon">
-				 <i class="fas fa-bars"></i>
-			  </div>
+  			<div class="burger-icon"> 
+          <a href="#" onclick="openNav()"> 
+            <div class="burger-menu">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </a>
+        </div>
   		</div>
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <div id="mySidenav" class="sidenav">
+        <a href="#" onclick="closeNav()"> <i class="fas fa-times"></i> </a>
+        <a href="index.html" class="span"> home </a>
+        <a href="activities.html"> activities </a>
+        <a href="#"> blog </a>
+        <a href="#"> Contact </a>
+        <a href="#"> destinations </a>
+      </div>
       <script src="script.js"> </script>
   		<div class="title container">
   			<h1 class=header-h1> GEORGIA </h1>
@@ -138,7 +151,8 @@
             <div class="newsletter-div">
                <h2 class="footer-h2"> Stay Updated!</h2>
                <p class="footer-p"> Subscribe To Get Our Monthly Newsletter Directly To Your Inbox With Updates, Travel Tips, Advice For Exploring Georgia </p>
-               <button class="subscribe-button" type="button" id="button"> subscribe </button>
+               <button class="subscribe-button" type="button" id="button" onclick="openForm()"> subscribe 
+               </button>
                <p class="icons-p"> find us on social media :</p>
                <div class="icons">
                  <i class="fab fa-facebook-f icon"></i>
@@ -148,12 +162,39 @@
                  <i class="fab fa-pinterest icon"></i>
                </div>
             </div>
+            <script type="text/javascript" src="script.js"></script>
             <div class="map">
               <iframe class="office-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1893.0316723108742!2d44.797811648793434!3d41.69899193651639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440ce797998255%3A0x5410d1ce396dc1!2s15%20Shota%20Rustaveli%20Ave%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1615669276718!5m2!1sen!2sge" width="600"height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
           </div>
       </div>
-    </div>
+      <div class="form-popup" id="myForm">
+          <form class="form-box">
+            <div class="form-wraper">
+              <textarea class="textarea-wraper" placeholder="Description"></textarea>
+            </div>
+            <div class="form-right">
+              <div class="form-wraper">
+                <label for="subject"> </label>
+                <input class="input-box" type="text" name="subject" id="subject" placeholder="Subject">
+              </div>
+              <div class="form-wraper">
+                <label for="name"> </label>
+                <input class="input-box" type="text" name="name" id="name" placeholder="Name / Surname"> 
+              </div>
+              <div>
+                <label for="email"></label>
+                <input class="input-box" type="email" id="email" name="email" placeholder="Email">
+              </div>
+              <div>
+                <button class="form-button" type="submit"> Send <i class="far fa-paper-plane"> </i> </button>
+              </div>
+              <div>
+                <button class="form-button" onclick="closeForm()"> close </button>
+              </div>
+            </div>
+          </form>
+      </div>
     </section>
   </body>
 </html>

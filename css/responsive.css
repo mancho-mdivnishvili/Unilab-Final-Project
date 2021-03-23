@@ -71,6 +71,12 @@
 		display: inline-block;
 		padding-right: 50px;
 	}
+	.sidenav {
+		display: inline-block;
+	}
+	.fa-times {
+		display: inline-block;
+	}
 	.activities-box-1 {
 		padding-left: 15px;
 	}

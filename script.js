@@ -1,10 +1,15 @@
-  $(function() {
-    $(window).on("scroll", function() {
-        if($(window).scrollTop() > 800) {
-            $(".burger-icon").addClass("active");
-        } else {
-            //remove the background property so it comes transparent again (defined in your css)
-           $(".burger-icon").removeClass("active");
-        }
-    });
-});
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0px";
+}
