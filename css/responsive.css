@@ -31,6 +31,11 @@
 		width: 100%;
 		margin-left: 0px;
 	}
+	.kakheti {
+		display: flex;
+		justify-content: center;
+		position: relative;
+	}
 	.box,
 	.category-box,
 	.category-box-1 {
@@ -171,6 +176,28 @@
     .office-map {
     	padding-right: 10px;
     }
+    .header1-bg {
+	background-image: url(../images/narikala.jpg);
+	width: 100%;
+	height: 600px;
+	}
+	.header2-bg {
+	background-image: url(../images/act.imgs/bg-2.png);
+	width: 100%;
+	height: 600px;
+	}
+	.header3-bg {
+	background-image: url(../images/dests/bg-3.jpg);
+	width: 100%;
+	height: 600px;
+	}
+	.title {
+		margin-top: 140px;
+	}
+	.activities-box-1 {
+		margin-right: 0px;
+		padding-left: 0px;
+	}
 }
 @media(max-width: 375px) {
 	.header-h1 {
@@ -186,6 +213,11 @@
 	}
 	.header2-bg {
 	background-image: url(../images/act.imgs/bg-2.png);
+	width: 100%;
+	height: 400px;
+	}
+	.header3-bg {
+	background-image: url(../images/dests/bg-3.jpg);
 	width: 100%;
 	height: 400px;
 	}
@@ -257,14 +289,19 @@
 		font-size: 16px;
 		margin-top: 5px;
 	}
-	.activities-h3 {
+	.activities-h3,
+	.destinations-h3 {
 		left: 0px;
 		left: 50%;
 		bottom: 50%;
 		transform: translate(-50%,50%);
 		font-size: 30px;
 	}
-	.long-h3 {
-		font-size: 45px;
+	.long-h3,
+	.destinations-h3 {
+		font-size: 35px;
+	}
+	.button {
+		padding: 15px 60px;
 	}
 }
