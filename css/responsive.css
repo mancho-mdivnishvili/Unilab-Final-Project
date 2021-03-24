@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media(max-width: 1110px) {
 	.section-4 {
 		padding-left: 10px;
@@ -12,6 +19,7 @@
 		width: 90%;
 		height: auto;
 	}
+}
 @media(max-width: 1024px) {
 	.tbilisi,
 	.old-town {
@@ -22,18 +30,28 @@
 	}
 	.destinations-wraper,
 	.activities-wraper {
-		flex-direction: row;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
 	}
 	.destinations-box,
 	.activities-box,
 	.activities-box-1 {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		width: 100%;
 		margin-left: 0px;
 	}
 	.kakheti {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 		position: relative;
 	}
 	.box,
@@ -64,8 +82,11 @@
 		padding-left: 10px;
 	}
 	.footer-div {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 }
 @media(max-width: 768px) {
@@ -93,7 +114,10 @@
 		font-size: 50px;
 	}
 	.box-wraper {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.articles-box {
 		margin:20px auto;
@@ -121,7 +145,10 @@
 }
 @media(max-width: 480px) {
 	.box-wraper {
-	    flex-direction: column;
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: column;
+	            flex-direction: column;
 	}
 	.articles-box {
 		width: 90%;
@@ -245,8 +272,12 @@
 		display: none;
 	}
 	.blog {
+	    display: -webkit-box;
+	    display: -ms-flexbox;
 	    display: flex;
-	    justify-content: center;
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
     }
     .blog-h4,
     .footer-p,
@@ -294,7 +325,9 @@
 		left: 0px;
 		left: 50%;
 		bottom: 50%;
-		transform: translate(-50%,50%);
+		-webkit-transform: translate(-50%,50%);
+		    -ms-transform: translate(-50%,50%);
+		        transform: translate(-50%,50%);
 		font-size: 30px;
 	}
 	.long-h3,
