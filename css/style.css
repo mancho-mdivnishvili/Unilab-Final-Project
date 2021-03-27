@@ -626,6 +626,75 @@ textarea::placeholder {
 	        justify-content: center;
 	font-size: 12px;
 }
+/*blog page*/
+.header4-bg {
+    background-image: url(../images/bg-4.png);
+	width: 100%;
+	height: 764px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.blog-body {
+  background: #2E4057;
+}
+.leftcolumn {
+  float: left;
+  width: 66.6%;
+}
+.rightcolumn {
+  float: left;
+  width: 33.3%;
+  padding-left: 20px;
+}
+.card {
+  margin-top: 30px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.blog-h2 {
+	font-size: 45px;
+	font-weight: 700;
+    margin-bottom: 15px;
+}
+.blog-h5 {
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.blog-p {
+	max-width: 720px;
+	width: 100%;
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 15px;
+}
+.right-p {
+	max-width: 348px;
+	width: 100%;
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.card-div {
+	margin-bottom: 15px;
+	position: relative;
+	display: inline-block;
+}
+.card-p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	font-size: 55px;
+	font-weight: 800;
+}
 /*destinations*/
 .header3-bg {
 	background-image: url(../images/dests/bg-3.jpg);
