@@ -88,6 +88,33 @@
 		-ms-flex-wrap: wrap;
 		    flex-wrap: wrap;
 	}
+	.contact-form {
+		padding-right: 10px;
+	}
+}
+@media (max-width: 880px) {
+	.contact-div,
+	.contact-icons {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: column-reverse;
+		        flex-direction: column-reverse;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.c-icon {
+		margin-top: 5px;
+	}
+	.find-us {
+		margin-left: 15px;
+	}
+	.contact-form {
+		margin-top: 40px;
+	}
+	.c-p {
+		display: none;
+	}
 }
 @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {
@@ -141,6 +168,9 @@
 	.tour-p {
 		font-size: 20px;
 	}
+	.logo-a {
+		padding-left: 15px;
+	}
 }
 @media(max-width: 760px) {
 	.articles-box {
@@ -149,6 +179,9 @@
 	li {
 		font-size:18px;
 		width: 10%;
+	}
+	.contact-button {
+		margin-bottom: 20px;
 	}
 
 }
@@ -240,6 +273,9 @@
 		margin-right: 0px;
 		padding-left: 0px;
 	}
+	.find-us {
+    margin-right: 15px;
+    }
 }
 @media(max-width: 375px) {
 	.header-h1 {
@@ -319,6 +355,9 @@
 	.blog-h5 {
 		font-size: 18px;
 	}
+	.contact-button {
+		padding: 15px 80px;
+	}
 }
 @media(max-width: 320px) {
 	.header-h1 {
@@ -360,5 +399,8 @@
 	}
 	.button {
 		padding: 15px 60px;
+	}
+	.adress-p {
+		font-size: 22px !important;
 	}
 }

@@ -546,14 +546,16 @@ li {
 .textarea-wraper {
 	resize: none;
 	height: 400px;
-	width: 720px;
-	background-color: #F8F8F8;
+	max-width: 720px;
+	width: 100%;
+	background-color: #F9F1F1;
 	border: 2px solid #E8E8E8;
 }
 .input-box {
 	height: 60px;
-	width: 352px;
-	background-color: #F8F8F8;
+	max-width: 352px;
+	width: 100%;
+	background-color: #F9F1F1;
 	border: 2px solid #F8F8F8;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
@@ -578,10 +580,11 @@ textarea::placeholder {
 	font-size: 15px;
 }
 .form-button {
-	width: 352px;
+	max-width: 352px;
+	width: 100%;
 	height: 60px;
 	background-color: #2C3D55;
-	color: #fff;
+	color: #F9F1F1;
 	font-size: 14px;
 	border: 2px solid #2C3D55;
 	margin-top: 15px;
@@ -600,13 +603,6 @@ textarea::placeholder {
 	-webkit-box-pack: start;
 	    -ms-flex-pack: start;
 	        justify-content: flex-start;
-}
-.contact-h4 {
-	font-size: 40px;
-	color: #2C3D55 ;
-	padding-top: 88px;
-	padding-left: 139px;
-	margin-bottom: 30px;
 }
 .form-popup {
 	display: none;
@@ -636,7 +632,7 @@ textarea::placeholder {
 	background-size: cover;
 }
 .blog-body {
-  background: #2E4057;
+  background: #2C3D55;
 }
 .leftcolumn {
   float: left;
@@ -713,6 +709,100 @@ textarea::placeholder {
 }
 .kakheti {
 	display: inline-block;
+}
+/*contact page*/
+.contact-body {
+	background: #2C3D55;
+}
+select {
+    height: 60px;
+    max-width: 352px;
+    width: 100%;
+    background-color: #F9F1F1;
+    border: 2px solid #F8F8F8;
+}
+input,
+option,
+select {
+	color: #2C3D55;
+	background-color: #F9F1F1;
+	font-size: 15px;
+}
+.contact-div {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.find-us {
+	margin-right: 30px;
+}
+.contact-form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+.address-div {
+	margin-left: 16px;
+	margin-bottom: 10px;
+}
+.adress p {
+	font-size: 20px;
+    margin-bottom: 10px;
+}
+.adress-p {
+	color: #F2A541;
+    font-size: 25px !important; 
+}
+.contact-button {
+  background-color: #F9F1F1 ;
+  border: none;
+  color: #2C3D55;
+  padding: 15px 110px;
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+  max-width: 352px;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.contact-icons {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 10px;
+}
+.c-icon {
+	font-size: 20px;
+	margin-left: 15px;
+}
+.send-icon {
+	color: #2C3D55;
+}
+.form-wraper {
+	margin-bottom: 10px;
+}
+.contact-map {
+	margin-top: 30px;
 }
 /*hoover effects*/
 .button:hover {opacity: 0.6}
